@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'BPreplay';
+    src: local('BPreplay'), url('BPreplay.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: local('quicksand'), url('quicksand.otf') format('opentype');
+}
+
+body {
+    font-family: 'quicksand', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'BPreplay', Arial, sans-serif;
+    font-size: 36px;
+    letter-spacing: 25px;
+}
+
+h2 {
+    font-family: 'BPreplay', Arial, sans-serif;
+    font-size: 24px;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: darkslategrey;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+nav a {
+    background-color: bisque;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: cornflowerblue;
+    text-decoration: none;
+    box-shadow: 3px 3px 0 #ffffff;
+}
+
+nav a:hover {
+    background: #ffffff;
+    color: azure;
+    box-shadow: 3px 3px 0 #1a2c32;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+footer {
+    background-color: #1a2c32;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.introduction {
+    border: 1px solid #9C94C2;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    margin: 2rem 0;
+}
+
+.regular-block {
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 2rem;
+    transition: 0.5s;
+}
+
+.regular-block:hover {
+    box-shadow: 0 0 25px #9C94C2;
+}
+
+.first {
+    border-bottom: 1px solid purple;
+}
+
+.last {
+    padding-top: 2rem;
+}
